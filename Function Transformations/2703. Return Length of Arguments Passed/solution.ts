@@ -1,3 +1,1 @@
-function argumentsLength(...args: any[]): number {
-  return args.length;
-}
+const argumentsLength = (...args: any[]): number => args.length;
